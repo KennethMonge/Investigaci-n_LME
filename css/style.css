@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Titulo{
+    color: #642a73;
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #642a73;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.Contenedor-Producto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Imagen-Producto{
+    width: 130%;
+}
+
+.Contenedor-Producto .Contenedor-Texto{
+    width: 100%;
+}
+
+.Contenedor-Texto h3{
+    margin-bottom: 15px;
+}
+
+.Contenedor-Texto h3 span{
+    background: #642a73;
+    color: #fff;
+    border-radius:50%;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 7px;
+}
+
+.Contenedor-Texto p{
+    padding: 0px 0px 30px 15px;
+}
+
+.Cartas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Cartas .Carta{
+    background: #642a73;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.Cartas .Carta img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.Cartas .Carta > .Carta-Contenido{
+    width: 60%;
+    color: #fff;
+}
+
+.Cartas .Carta > .Carta-Contenido p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.Contenedor-Servicios{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Contenedor-Individual{
+    width: 28%;
+    text-align: center;
+}
+
+.Contenedor-Individual img{
+    width: 90%;
+}
+
+.Contenedor-Individual h3{
+    margin: 10px 0;
+}
+
+.Contenedor-Individual p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #642a73;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    background: none;
+}
+.btn-home{
+    display: flex;
+}
+.btn-home a {
+    margin: 0 10px;
+}
+
+hr{
+    border-color: #fff;
+}
+
+#java-titulo{
+    text-align: center;
+}
+
+.buttons {
+    min-width: 700px;/* Establece el ancho mínimo de 700 pixeles*/
+    display: flex;/*Configura el contenedor y lo hace flexible*/
+    justify-content: space-around;/*Distribuye el espacio disponible de manera uniforme*/
+}
+
+.buttons a {
+    text-decoration: none; /* Elimina la decoración que tiene de enlace*/
+    font-size: 28px; /*Tamaño de la fuente*/
+    width: 60px;  /* Establece el ancho de 60 píxeles */
+    height: 60px; /* Establece la altura de 60 píxeles */
+    line-height: 60px;/* Establece la línea de texto en el enlace en 60 píxeles*/
+    text-align: center;  /* Centra el contenido */
+    background: #333;
+    color: #f1f1f1;
+    border-radius: 50%;/* Aplica un radio de borde de 50% lo que hace que se vea circular*/
+    /* Agrega una sombra de 2 píxeles de desplazamiento en horizontal y vertical, y una opacidad de 0.5 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;/* Agrega una transición suave a todos los cambios de estilo que dure 0.4 segundos */
+}
+
+ /* Aplica una transformación de escala del 120% al "hover" */
+.buttons a:hover {
+    transform: scale(1.2);
+}
