@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #642a73;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+article {
+    border: 2px solid #642a73;
+    color: black;
+    margin-top: 100px; /* Aumentado el margen superior */
+    padding: 12px;
+    margin-left: auto; /* Eliminado el margen izquierdo */
+    margin-right: auto; /* Eliminado el margen derecho */
+    width: 80%; /* Ancho al 80% del contenedor */
+    max-width: 1000px; /* Ancho máximo limitado */
+    margin-bottom: 20px; /* Agregado margen inferior para separar el artículo del footer */
+}
+
+.Titulo{
+    color: #642a73;
+    font-size: 29px;
+    text-align: center;
+}
+
+
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.buttons {
+    min-width: 700px;/* Establece el ancho mínimo de 700 pixeles*/
+    display: flex;/*Configura el contenedor y lo hace flexible*/
+    justify-content: space-around;/*Distribuye el espacio disponible de manera uniforme*/
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    text-decoration: none; /* Elimina la decoración que tiene de enlace*/
+    font-size: 28px; /*Tamaño de la fuente*/
+    width: 60px;  /* Establece el ancho de 60 píxeles */
+    height: 60px; /* Establece la altura de 60 píxeles */
+    line-height: 60px;/* Establece la línea de texto en el enlace en 60 píxeles*/
+    text-align: center;  /* Centra el contenido */
+    background: #333;
+    color: #f1f1f1;
+    border-radius: 50%;/* Aplica un radio de borde de 50% lo que hace que se vea circular*/
+    /* Agrega una sombra de 2 píxeles de desplazamiento en horizontal y vertical, y una opacidad de 0.5 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;/* Agrega una transición suave a todos los cambios de estilo que dure 0.4 segundos */
+}
+
+ /* Aplica una transformación de escala del 120% al "hover" */
+.buttons a:hover {
+    transform: scale(1.2);
+}
