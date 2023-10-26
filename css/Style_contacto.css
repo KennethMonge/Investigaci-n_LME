@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #642a73;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding:  15px 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    max-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover{
+    background: aqua;
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #642a73;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    background: none;
+}
+.btn-home{
+    display: flex;
+}
+.btn-home a {
+    margin: 0 10px;
+}
+
+hr{
+    border-color: #fff;
+}
+
+.buttons {
+    min-width: 700px;/* Establece el ancho mínimo de 700 pixeles*/
+    display: flex;/*Configura el contenedor y lo hace flexible*/
+    justify-content: space-around;/*Distribuye el espacio disponible de manera uniforme*/
+}
+
+.buttons a {
+    text-decoration: none; /* Elimina la decoración que tiene de enlace*/
+    font-size: 28px; /*Tamaño de la fuente*/
+    width: 60px;  /* Establece el ancho de 60 píxeles */
+    height: 60px; /* Establece la altura de 60 píxeles */
+    line-height: 60px;/* Establece la línea de texto en el enlace en 60 píxeles*/
+    text-align: center;  /* Centra el contenido */
+    background: #333;
+    color: #f1f1f1;
+    border-radius: 50%;/* Aplica un radio de borde de 50% lo que hace que se vea circular*/
+    /* Agrega una sombra de 2 píxeles de desplazamiento en horizontal y vertical, y una opacidad de 0.5 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;/* Agrega una transición suave a todos los cambios de estilo que dure 0.4 segundos */
+}
+
+ /* Aplica una transformación de escala del 120% al "hover" */
+.buttons a:hover {
+    transform: scale(1.2);
+}
