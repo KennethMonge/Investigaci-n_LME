@@ -30,6 +30,8 @@ h3{
     padding-bottom: 10px;
 }
 .titulo1{
+    padding-bottom: 20px;
+    padding-top: 30px;
     border-top: 10px;
     color: #642a73;
     font-size: 29px;
@@ -234,4 +236,12 @@ hr{
  /* Aplica una transformación de escala del 120% al "hover" */
 .buttons a:hover {
     transform: scale(1.2);
+}
+
+
+.chiquitito-img {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    width: 450px; /* Ancho deseado */
+    height: auto
 }
