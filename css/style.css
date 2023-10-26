@@ -23,6 +23,13 @@ section{
     margin-bottom: 60px;
 }
 
+.titulo1{
+    border-top: 10px;
+    color: #642a73;
+    font-size: 29px;
+    text-align: center;
+}
+
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
@@ -44,11 +51,20 @@ nav > a:hover{
     justify-content: space-evenly;
 }
 
+.Contenedor-programadores{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .Imagen-Producto{
     width: 130%;
 }
 
 .Contenedor-Producto .Contenedor-Texto{
+    width: 100%;
+}
+
+.Contenedor-programadores .Contenedor-Texto1{
     width: 100%;
 }
 
@@ -71,6 +87,14 @@ nav > a:hover{
 
 .Contenedor-Texto p{
     padding: 0px 0px 30px 15px;
+}
+
+.img{
+    text-align: center;
+}
+
+.imagen{
+    height: 200px;
 }
 
 .Cartas{
@@ -173,6 +197,10 @@ hr{
 }
 
 #java-titulo{
+    text-align: center;
+}
+
+#Acerca-progra{
     text-align: center;
 }
 
