@@ -1,12 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     background-image: url('../img/Fondo-calcus.jpg');
     background-size: cover; /* Opcional: ajusta el tamaño de la imagen al tamaño de la ventana */
     background-repeat: no-repeat; /* Opcional: evita que la imagen se repita */
@@ -74,6 +77,69 @@ img {
     width: 550px;
     height: auto;
     padding: 50px;
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+footer {
+    background: #414141;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0; /* Ajusta el espaciado superior e inferior según tus preferencias */
+    margin: 0; /* Elimina el margen para un ajuste más preciso */
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    bottom: 0;
+    width: 100%;
+}
+
+.buttons {
+    min-width: 700px;/* Establece el ancho mínimo de 700 pixeles*/
+    display: flex;/*Configura el contenedor y lo hace flexible*/
+    justify-content: space-around;/*Distribuye el espacio disponible de manera uniforme*/
+}
+
+.buttons a {
+    text-decoration: none; /* Elimina la decoración que tiene de enlace*/
+    font-size: 28px; /*Tamaño de la fuente*/
+    width: 60px;  /* Establece el ancho de 60 píxeles */
+    height: 60px; /* Establece la altura de 60 píxeles */
+    line-height: 60px;/* Establece la línea de texto en el enlace en 60 píxeles*/
+    text-align: center;  /* Centra el contenido */
+    background: #333;
+    color: #f1f1f1;
+    border-radius: 50%;/* Aplica un radio de borde de 50% lo que hace que se vea circular*/
+    /* Agrega una sombra de 2 píxeles de desplazamiento en horizontal y vertical, y una opacidad de 0.5 */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;/* Agrega una transición suave a todos los cambios de estilo que dure 0.4 segundos */
+}
+
+ /* Aplica una transformación de escala del 120% al "hover" */
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
+nav {
+    text-align: right;
+    padding: 20px 0; /* Ajusta el espaciado superior según tus preferencias */
+    position: absolute; /* Coloca el nav en una posición absoluta */
+    top: 0;
+    right: 0;
+}
+
+nav > a{
+    color: #642a73;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
 }
 
 
