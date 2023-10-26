@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/Fondo-calcus.jpg');
+    background-size: cover; /* Opcional: ajusta el tamaño de la imagen al tamaño de la ventana */
+    background-repeat: no-repeat; /* Opcional: evita que la imagen se repita */
+
+}
+
+form {
+    background-color: #63a568;
+    /* Cambia el color a tu elección */
+    padding: 20px;
+    /* Añade espacio alrededor del formulario */
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container2 {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Estilo para los inputs */
+input {
+    display: inline-block;
+    /* Hace que los inputs se coloquen uno al lado del otro */
+    margin-right: 10px;
+    /* Agrega un margen entre los inputs si es necesario */
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-weight: bold;
+}
+
+img {
+    float: left;
+    width: 550px;
+    height: auto;
+    padding: 50px;
+}
+
+
